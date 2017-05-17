@@ -8,24 +8,16 @@ const CHANNEL_ID = '146182128',
 
 let currentIconPath = DEFAULT_ICON_PATH;
 
-chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
-    var response = {};
-    for (var i = 0; i < request.items.length; i++) {
-        response[request.items[i]] = JSON.parse(localStorage[request.items[i]]);
-    }
-    sendResponse({
-        data: response
-    });
-});
+chrome.notifications.onClicked.addListener(clearNotification);
 
-chrome.notifications.onClicked.addListener(function(notificationId) {
+function clearNotification(notificationId) {
     if (notificationId == 'liveNotification') {
         chrome.tabs.create({ url: 'https://www.twitch.tv/streamersconnected' });
         chrome.notifications.clear(notificationId);
     }
-});
+}
 
-var showNotification = function() {
+function showNotification() {
     var time = /(..)(:..)/.exec(new Date());
     var hour = time[1] % 12 || 12;
     var period = time[1] < 12 ? 'AM' : 'PM';
@@ -42,7 +34,6 @@ var showNotification = function() {
             iconUrl: LIVE_ICON_PATH
         });
     }
-
     if (JSON.parse(localStorage.notificationSoundEnabled) === true) {
         if (localStorage.getItem('audio') === null) {
             var defaultSound = new Audio('online.mp3');

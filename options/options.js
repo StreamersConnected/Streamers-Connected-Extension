@@ -61,7 +61,7 @@ var showTestNotification = function() {
     var hour = time[1] % 12 || 12;
     var period = time[1] < 12 ? 'AM' : 'PM';
     if (JSON.parse(localStorage.isActivated) === true) {
-        chrome.notifications.create(null, {
+        chrome.notifications.create('liveNotification', {
             type: 'basic',
             title: 'Test! (' + hour + time[2] + ' ' + period + ')',
             message: 'Test notification!',
