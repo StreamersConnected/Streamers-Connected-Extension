@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Streamers Connected</title>
     <link href="options.css" rel="stylesheet" type="text/css">
     <script src="../external/jquery.min.js"></script>
     <script src="options.js"></script>
 </head>
+
 <body>
     <h1>
-        <img src="../icons/64.png" alt="Ice"> Streamers Connected
+        <img src="../icons/64.png" alt="SC"> Streamers Connected
     </h1>
     <h2>Options</h2>
     <form id="options">
@@ -29,38 +31,6 @@
                 <td>Show most recent tweet:</td>
                 <td><input type="checkbox" name="showRecentTweet" checked></td>
             </tr>
-            <tr class="paddingBottom">
-                <td>Always redirect to Twitch:</td>
-                <td><input type="checkbox" name="redirectToYTGaming" checked></td>
-            </tr>
-            <tr class="trLine">
-                <td>Enable Twitch emotes:</td>
-                <td><input type="checkbox" name="emotesTwitch" checked></td>
-            </tr>
-            <tr>
-                <td>Enable BTTV emotes:</td>
-                <td><input type="checkbox" name="emotesBTTV" checked></td>
-            </tr>
-            <tr class="paddingBottom">
-                <td>Enable Twitch subscriber emotes:</td>
-                <td><input type="checkbox" name="emotesSub" checked></td>
-            </tr>
-            <tr>
-                <td>Enabled emote channels (seperated by comma):</td>
-                <td><input name="BTTVChannels" style="width:380px"></input></td>
-            </tr>
-            <tr class="trLine">
-                <td>Disable chat avatars:</td>
-                <td><input type="checkbox" name="disableAvatars" checked></td>
-            </tr>
-            <tr>
-                <td>Chat name colors:</td>
-                <td><input type="checkbox" name="enableChatColors" checked></td>
-            </tr>
-            <tr>
-                <td>Lines between chat messages:</td>
-                <td><input type="checkbox" name="enableSplitChat"></td>
-            </tr>
         </table>
     </form>
     <br>
@@ -68,7 +38,6 @@
     <b>Change Notification Sound (max 3.5mb):</b><br><br>
     <button id="reset">Reset Sound</button>&nbsp;<input type="file" id="newSound" accept="audio/*" /><br><br>
     <b id="currentSound"></b><br><br>
-    <small class="soon">Emote option changes will require a refresh of the livestream page.</small><br><br>
-    <small class="soon">Options are automatically saved, more options/functionality coming soon.</small>
 </body>
+
 </html>

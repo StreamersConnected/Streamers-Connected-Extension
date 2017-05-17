@@ -1,10 +1,10 @@
-var CHANNEL_ID = 'UCv9Edl_WbtbPeURPtFDo-uA';
+var CHANNEL_ID = '146182128',
+    CLIENT_ID = 'mufc734wg7hma7lab5tvvmn6i662j4';
 
 $(function() {
     $('.popupchat').click(function() {
         window.open('https://www.twitch.tv/streamersconnected/chat?popout=', 'Streamers Connected Chat', 'width=550,height=800');
     });
-
     $('.openOptions').click(function() {
         chrome.runtime.openOptionsPage();
     });
@@ -24,17 +24,15 @@ var liveCheck = function() {
     });
 };
 
-var getLatestTweet = function() {
-
+var setLatestTweetVisibility = function() {
     if (JSON.parse(localStorage.showRecentTweet) === false) {
         $('<style type="text/css">html{height: 125px;}</style>').appendTo('head');
         return;
     }
-
     $('.tweet-container').removeClass('hidden');
 };
 
 document.addEventListener('DOMContentLoaded', function() {
     liveCheck();
-    getLatestTweet();
+    setLatestTweetVisibility();
 });
