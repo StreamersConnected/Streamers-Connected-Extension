@@ -3,6 +3,7 @@ window.addEventListener('load', function() {
     options.notificationSoundEnabled.checked = JSON.parse(localStorage.notificationSoundEnabled);
     options.notificationVolume.value = JSON.parse(localStorage.notificationVolume);
     options.showRecentTweet.checked = JSON.parse(localStorage.showRecentTweet);
+    options.addChatBadges.checked = JSON.parse(localStorage.addChatBadges);
 
     options.isActivated.onchange = function() {
         localStorage.isActivated = options.isActivated.checked;
@@ -18,6 +19,10 @@ window.addEventListener('load', function() {
 
     options.showRecentTweet.onchange = function() {
         localStorage.showRecentTweet = options.showRecentTweet.checked;
+    };
+
+    options.addChatBadges.onchange = function() {
+        localStorage.addChatBadges = options.addChatBadges.checked;
     };
 
     var audio = localStorage.getItem('audio');

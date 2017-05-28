@@ -1,0 +1,2 @@
+blackjack_kent|ADMIN_DEV|#5cb85c
+bjk_modbot|CONTRIBUTOR|#f0ad4e
