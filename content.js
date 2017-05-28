@@ -2,14 +2,14 @@ var teamMembers = [];
 var roles = [];
 var CLIENT_ID = 'mufc734wg7hma7lab5tvvmn6i662j4';
 const badgeUrl = chrome.extension.getURL("icons/chat-badge-square.png");
-const rolesUrl = "https://tempstorage52817.file.core.windows.net/test/roles.txt?st=2017-05-28T18%3A53%3A00Z&se=2017-05-29T18%3A53%3A00Z&sp=r&sv=2015-12-11&sr=f&sig=4kxyP7LsrHuvm1CenW%2B2TDs03nuFp75R%2BB%2Fz5g4xM%2Fs%3D";
+const rolesUrl = "https://www.streamersconnected.tv/roles.txt";
 
 updateTeamList();
 var chatCheck = setTimeout(checkChatExists, 5000);
 var teamCheck = setTimeout(updateTeamList, 1000 * 60 * 15)
 
 function checkChatExists() {
-    if ($('.js-chat-messages').length) {
+    if ($('.js-chat-messages').length && $('.js-chat-messages .message-line').length) {
         clearTimeout(chatCheck);
         init();
     }
