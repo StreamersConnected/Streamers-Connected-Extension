@@ -1,11 +1,12 @@
 .sc-extension-role-title {
     display: inline-block;
-    float: left;
     background: #5bc0de;
     color: #fff;
     height: 20px;
-    padding: 5px;
-    line-height: 10px;
+    padding: 3px;
+    line-height: 14px;
     margin-right: 5px;
     border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
 }

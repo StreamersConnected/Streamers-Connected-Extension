@@ -1,6 +1,6 @@
 {
     "name": "Streamers Connected",
-    "version": "2.5.0",
+    "version": "3.0.0",
     "description": "The official Streamers Connected Chrome extension, showing notifications when Streamers Connected goes live.",
     "icons": {
         "64": "icons/64.png",

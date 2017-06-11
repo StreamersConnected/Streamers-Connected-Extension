@@ -4,6 +4,7 @@ window.addEventListener('load', function() {
     options.notificationVolume.value = JSON.parse(localStorage.notificationVolume);
     options.showRecentTweet.checked = JSON.parse(localStorage.showRecentTweet);
     options.addChatBadges.checked = JSON.parse(localStorage.addChatBadges);
+    options.addChatRoles.checked = JSON.parse(localStorage.addChatRoles);
 
     options.isActivated.onchange = function() {
         localStorage.isActivated = options.isActivated.checked;
@@ -23,6 +24,10 @@ window.addEventListener('load', function() {
 
     options.addChatBadges.onchange = function() {
         localStorage.addChatBadges = options.addChatBadges.checked;
+    };
+
+    options.addChatRoles.onchange = function() {
+        localStorage.addChatRoles = options.addChatRoles.checked;
     };
 
     var audio = localStorage.getItem('audio');

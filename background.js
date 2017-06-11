@@ -103,6 +103,7 @@ if (!localStorage.notificationSoundEnabled) localStorage.notificationSoundEnable
 if (!localStorage.notificationVolume) localStorage.notificationVolume = 50;
 if (!localStorage.showRecentTweet) localStorage.showRecentTweet = true;
 if (!localStorage.addChatBadges) localStorage.addChatBadges = true;
+if (!localStorage.addChatRoles) localStorage.addChatRoles = true;
 
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     var response = {};
