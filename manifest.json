@@ -36,6 +36,14 @@
             "*://*.twitch.tv/*",
             "*://*.twitch.tv/*"
         ]
+    }, {
+        "js": [
+            "/external/cytube-google-drive.user.js"
+        ],
+        "run_at": "document_end",
+        "matches": [
+            "*://movie-nights.streamersconnected.tv/r/StreamersConnected"
+        ]
     }],
     "manifest_version": 2,
     "browser_action": {
