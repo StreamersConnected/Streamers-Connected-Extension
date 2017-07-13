@@ -2,7 +2,7 @@ var teamMembers = [];
 var roles = [];
 var CLIENT_ID = 'mufc734wg7hma7lab5tvvmn6i662j4';
 const badgeUrl = chrome.extension.getURL("icons/chat-badge-square.png");
-const rolesUrl = "https://www.streamersconnected.tv/roles.txt";
+const rolesUrl = "https://extension.streamersconnected.tv/roles.txt";
 
 console.log('SC EXTENSION: Starting');
 updateTeamList();
