@@ -5,16 +5,12 @@ joshbaked|CO-FOUNDER|#3498db
 nightvillain|MANAGER OF SC|#FF0000
 ltcuppycake|COMMUNITY MANAGER|#6441A5
 meltedsnowgirl|STAFF|#FF00F5
-scibb|STAFF|#FF00F5
-mradder|STAFF|#FF00F5
-dexterfettster|STAFF|#FF00F5
 lordfawlty|STAFF|#FF00F5
 tasteofgaming|STAFF|#FF00F5
 justjamiehdg|STAFF|#FF00F5
 rustynikz|STAFF|#FF00F5
 john_io|ADMIN DEV|#00849C
 akhawais|ADMIN DEV|#00849C
-asherartistry|ADMIN|#007AFF
 altilla|ADMIN|#007AFF
 1fprowolf|ADMIN|#007AFF
 commanderslothus|ADMIN|#007AFF
@@ -26,8 +22,8 @@ killer_kitsune|ADMIN|#007AFF
 officialggtv|ADMIN|#007AFF
 pawbu|ADMIN|#007AFF
 hollowfeast|ADMIN|#007AFF
-sareebear|ADMIN|#007AFF
-vokzzlegacy|ADMIN|#007AFF
+sareebear|STAFF|#FF00F5
+vokzzlegacy|STAFF|#FF00F5
 sammyzombieekitten|ADMIN|#007AFF
 phantom|ADMIN|#007AFF
 dznspencer|SC DESIGNERS|#e91e63
@@ -37,23 +33,16 @@ alicedestrange|MOD|#DB9E00
 emmmmsie|MOD|#DB9E00
 chaoticnightowl|MOD|#DB9E00
 cammylanee|MOD|#DB9E00
-jrossa81|MOD|#DB9E00
+jrossa81|ADMIN|#007AFF
 kdoubleu_|MOD|#DB9E00
 kea_king|MOD|#DB9E00
 thirdyplays|MOD|#DB9E00
 liam_starling|MOD|#DB9E00
-taranp97|MOD|#DB9E00
 dubm77|MOD|#DB9E00
 jermaino_o|MOD|#DB9E00
 lefranzine|MOD|#DB9E00
 blakers54|MOD|#DB9E00
 bomenzzz|MOD|#DB9E00
 causepandas|MOD|#DB9E00
-tayterchip|HEAD MENTOR|#0AFF00
 sophieejadee|HEAD MENTOR|#0AFF00
 froggiesarmy|MENTOR|#45C277
-anamorphictv|MENTOR|#45C277
-sarcasticj|MENTOR|#45C277
-csj90|MENTOR|#45C277
-fatheroftwohellions|CONTRIBUTOR|#783DE2
-XKPlayzYT|TWITCH LORD|#4575F1 

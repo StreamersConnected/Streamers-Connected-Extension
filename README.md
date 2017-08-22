@@ -3,3 +3,4 @@ The official Chrome extension for StreamersConnected, including notifications fo
 
 Adapted from public code at https://github.com/ansien12/Ice-Poseidon-TV
 "# Streamers-Connected-Extension" 
+"# SC-Extension" 
